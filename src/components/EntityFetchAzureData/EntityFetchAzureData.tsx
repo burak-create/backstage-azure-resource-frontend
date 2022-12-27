@@ -55,7 +55,7 @@ export const DenseTable = ({ rgs }: DenseTableProps) => {
         }
     }
     return {
-        resourceGroup: <a target="_blank" href={`https://portal.azure.com/resource${r.id}`}>{r.resourceGroup}</a>,
+        resourceGroup: <a target="_blank" href={`https://portal.azure.com/resource${r.id}`}>{r.resourceGroup}</a>, //TODO: add domain
         tags: tags,
         id: r.id
     };
